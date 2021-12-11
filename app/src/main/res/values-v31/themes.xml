@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AnananSplashScreen" parent="Theme.SplashScreen">
+        # 启动画面的背景，默认使用 windowBackground
+        <item name="windowSplashScreenBackground">#d73</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/splash</item>
+        # 指定 icon，支持静态 drawable 或动画 vector drawable
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        # 动画 icon 时长，上限 1000 ms
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        # 启动画面退出后 Activity 的主题
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenSample</item>
+
+        # 设置图标北京颜色，本例中图标是不透明的，所以看不到效果
+        <item name="windowSplashScreenIconBackgroundColor">#f00</item>
+    </style>
+</resources>
